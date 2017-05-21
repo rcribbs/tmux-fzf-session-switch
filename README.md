@@ -11,5 +11,6 @@ through your sessions with fzf.
 * If you type a name that doesn't exist, you will be prompted to create it.
 
 ## Requirements
-[fzf](https://github.com/junegunn/fzf)
+
+[fzf](https://github.com/junegunn/fzf)  
 rg (recommended but not required)
