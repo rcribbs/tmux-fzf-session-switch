@@ -21,8 +21,7 @@ function set_goto_session_bindings {
     "$default_key_bindings_goto")
   local key
   for key in $key_bindings; do
-    echo $key
-    tmux bind "$key" split-window "$CURRENT_DIR/scripts/switch_session_fzf.sh"
+    tmux bind "$key" split-window -p 80 "$CURRENT_DIR/scripts/switch_session_fzf.sh"
   done
 }
 
