@@ -3,7 +3,7 @@
 ## Purpose
 
 If you're like me and you tend to have a lot of sessions to organize your
-thoughts then this is the plugin for you. With this plugin you can search 
+thoughts then this is the plugin for you. With this plugin you can search
 through your sessions with fzf.
 
 ## Functionality
@@ -12,5 +12,5 @@ through your sessions with fzf.
 
 ## Requirements
 
-[fzf](https://github.com/junegunn/fzf)
-rg (recommended but not required)
+- [fzf](https://github.com/junegunn/fzf>)
+- rg (recommended but not required)

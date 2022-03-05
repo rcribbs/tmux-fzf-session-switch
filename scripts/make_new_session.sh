@@ -10,8 +10,8 @@ function main {
   answer=$ANSWER
 
   if [ $answer == "y" ] || [ $answer == "Y" ]; then
-    tmux new-session -d -s $session
-    tmux switch-client -t $session
+    tmux new-session -d -s "$session"
+    tmux switch-client -t "$session"
   fi
 }
 main
